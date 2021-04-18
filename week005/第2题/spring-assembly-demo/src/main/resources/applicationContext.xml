@@ -1,0 +1,42 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--        https://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--        http://www.springframework.org/schema/context-->
+<!--        http://www.springframework.org/schema/context/spring-context.xsd">-->
+
+<!--    <bean id="student1" class="edu.geekbang.xmm.week005.bean.Student">-->
+<!--        <property name="id" value="1" />-->
+<!--        <property name="name" value="xmm1" />-->
+<!--    </bean>-->
+
+<!--    <bean id="student2" class="edu.geekbang.xmm.week005.bean.Student">-->
+<!--        <property name="id" value="2" />-->
+<!--        <property name="name" value="xmm2" />-->
+<!--    </bean>-->
+
+<!--    <bean id="student100" class="edu.geekbang.xmm.week005.bean.Student">-->
+<!--        <property name="id" value="100" />-->
+<!--        <property name="name" value="xmm100" />-->
+<!--    </bean>-->
+
+<!--    <bean id="class100" class="edu.geekbang.xmm.week005.bean.Klass">-->
+<!--        <property name="students">-->
+<!--            <list>-->
+<!--                <ref bean="student1"></ref>-->
+<!--                <ref bean="student2"></ref>-->
+<!--                <bean id="student3" class="edu.geekbang.xmm.week005.bean.Student">-->
+<!--                    <property name="id" value="3" />-->
+<!--                    <property name="name" value="xmm3" />-->
+<!--                </bean>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <context:component-scan base-package="edu.geekbang.xmm.week005.*"/>-->
+
+<!--    <bean id="school" class="edu.geekbang.xmm.week005.bean.School" />-->
+
+<!--</beans>-->
