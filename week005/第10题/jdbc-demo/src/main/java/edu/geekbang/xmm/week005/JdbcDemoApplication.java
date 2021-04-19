@@ -19,7 +19,7 @@ public class JdbcDemoApplication {
         }
     }
 
-    private static final String URL = "jdbc:mysql://121.196.19.208:3306/jsgreatwallwine", USER = "root", PASSWORD = "qOFIDyxw2kZ4";
+    private static final String URL = "jdbc:mysql://127.0.0.1:3306/test", USER = "*********", PASSWORD = "*********";
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         /**
